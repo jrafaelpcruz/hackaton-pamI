@@ -24,8 +24,10 @@
   <div class="container">
     <div class="coluna-conteudo">
       <div class="conteudo">
-        <div><img src="img/music.jpg" /></div>
-        <div>
+        <div class="conteudo-imagem">
+          <img src="img/music.jpg" />
+        </div>
+        <div class="conteudo-principal">
           <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
           <div class="conteudo-atributos">
             <ul>
@@ -40,10 +42,10 @@
         </div>
       </div>
       <div class="conteudo">
-        <div>
+        <div class="conteudo-imagem">
           <img src="img/column_woman_glasses.jpg" />
         </div>
-        <div>
+        <div class="conteudo-principal">
           <a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, autem.n</a>
           <div class="conteudo-atributos">
             <ul>

@@ -76,7 +76,7 @@ li a:hover {
 
 /*index.php*/
 main {
-  width:80%;
+  width:60%;
   display:flex;
   flex-flow: wrap column;
   align-items: center;
@@ -117,7 +117,12 @@ main {
   display:flex;
   gap: 40px;
 }
-
+.conteudo-imagem {
+  flex: 1 1 0;
+}
+.conteudo-principal {
+  flex: 2 1 0;
+}
 .conteudo img {
   width:100%;
   border: 2px solid var(--header-second-color)
@@ -200,9 +205,6 @@ main {
   }
   .coluna-conteudo {
     width:100%;
-  }
-  .conteudo img {
-    display:none;
   }
   .conteudo p {
     display:none;
