@@ -196,7 +196,17 @@ main {
 .conteudo-left-apoie img {
   width:50%;
 }
-
+@media (max-width:1280px) {
+  main {
+    width:80%;
+  }
+  .coluna-conteudo {
+    width:100%;
+  }
+  .conteudo-left {
+    display:none;
+  }
+}
 @media (max-width:980px) {
   body {
     margin:10px;
