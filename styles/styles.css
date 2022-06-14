@@ -172,6 +172,10 @@ main {
 .conteudo-left h1 {
   font-weight: normal;
   background-color: var(--header-main-color);
+  margin-top:20px;
+}
+.conteudo-left h1:first-child{
+  margin-top:0;
 }
 .conteudo-left a {
   font-size:28px;
