@@ -81,18 +81,18 @@ li a:hover {
 }
 .spotlight img {
   width:100%;
-  border-top:5px solid var(--header-second-color);
-  border-bottom:0;
+  border-top: 3px solid var(--header-second-color);
 }
 .spotlight p {
-  width:100%;
 	font-size: 40px;
 	text-align:center;
-	padding-bottom:5px;
 }
 .spotlight a {
 	text-decoration:none;
 	color:#FFF;
+}
+.spotlight a:hover {
+  color:#FFF;
 }
 main {
   width:80%;

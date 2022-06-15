@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ptbr">
   <link rel="stylesheet" href="styles/styles.css">
+  <!-- caroulsel - extraido do bootstrap -->
+  <link rel="stylesheet" href="styles/carousel.css">
   <!--google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +14,36 @@
   <title>Placeholder Title</title>
 </head>
 <body>
-
+<!-- script js carregando bootstrap-->
+<script src="js/bootstrap.min.js"></script>
  <header><?php include 'header.php'?></header>
 
   <div class="spotlight">
-		<img src="img/woman_sunglasses.jpg"/>
-		<p><a href="#">Lorem ipsum dolor sit amet consectetur.</a></p>
+		<!--inicio do código do carou -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/woman_sunglasses.jpg" class="d-block w-100" alt="...">
+      <p><a href="#">Link para o conteudo</a></p>
+    </div>
+    <div class="carousel-item">
+      <img src="img/mulher_triste.jpg" class="d-block w-100" alt="...">
+      <p><a href="#">Link para o conteudo</a></p>
+    </div>
+    <div class="carousel-item">
+      <img src="img/codigo_azul.jpg" class="d-block w-100" alt="...">
+      <p><a href="#">Link para o conteudo</a></p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+    <!-- Fim do codigo do carousel-->
+		
   </div>
 
  <main>
