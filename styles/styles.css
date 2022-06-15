@@ -227,3 +227,22 @@ main {
     display:none;
   }
 }
+/*footer*/
+footer {
+  margin-top:40px;
+  font-family: 'Crimson Text', serif;
+}
+footer p {
+  background-color:var(--header-second-color);
+  text-align:center;
+  padding:20px 0;
+  font-size: 40px;
+  color:#FFF;
+}
+footer ul {
+  display:flex;
+  justify-content: center;
+  gap:20px;
+  list-style: none;
+  background-color: var(--header-main-color);
+}
