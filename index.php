@@ -14,28 +14,28 @@
 <body>
 
  <header><?php include 'header.php'?></header>
-	
- <main>
-	<div class="spotlight">
+
+  <div class="spotlight">
 		<img src="img/woman_sunglasses.jpg"/>
 		<p><a href="#">Lorem ipsum dolor sit amet consectetur.</a></p>
-	</div>
+  </div>
 
-  <div class="container">
+ <main>
+	 <div class="container">
     <div class="coluna-conteudo">
       <div class="conteudo">
         <div class="conteudo-imagem">
           <img src="img/music.jpg" />
         </div>
         <div class="conteudo-principal">
-          <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <a href="#">Lorem ipsum dolor sit.</a>
           <div class="conteudo-atributos">
             <ul>
-              <li>Conteudo-Tag</li>
+              <li><span class="tag-rosa">Conteudo-Tag</span></li>
               <li>Data</li>
             </ul>
           <div class="conteudo-atributos-comentarios">
-            0
+            22
           </div>
         </div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur. Suscipit ullam libero autem consectetur doloribus debitis, quo delectus asperiores rem harum magnam quasi ut, illum temporibus laudantium laboriosam recusandae architecto illo nemo, pariatur vel! Magnam alias minima commodi autem velit. Incidunt blanditiis accusamus ipsam non quos quidem fugit et?</p>
@@ -46,14 +46,14 @@
           <img src="img/column_woman_glasses.jpg" />
         </div>
         <div class="conteudo-principal">
-          <a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, autem.n</a>
+          <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
           <div class="conteudo-atributos">
             <ul>
-              <li>Conteudo-Tag</li>
+              <li><span class="tag-verde">Conteudo-Tag</span></li>
               <li>Data</li>
             </ul>
           <div class="conteudo-atributos-comentarios">
-            0
+            8
           </div>
         </div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur. Suscipit ullam libero autem consectetur doloribus debitis, quo delectus asperiores rem harum magnam quasi ut, illum temporibus laudantium laboriosam recusandae architecto illo nemo, pariatur vel! Magnam alias minima commodi autem velit. Incidunt blanditiis accusamus ipsam non quos quidem fugit et?</p>
