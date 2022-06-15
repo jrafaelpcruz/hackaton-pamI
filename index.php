@@ -28,11 +28,11 @@
     </div>
     <div class="carousel-item">
       <img src="img/mulher_triste.jpg" class="d-block w-100" alt="...">
-      <p><a href="#">Link para o conteudo</a></p>
+      <p><a href="#">A mulher triste voltou, Thais</a></p>
     </div>
     <div class="carousel-item">
       <img src="img/codigo_azul.jpg" class="d-block w-100" alt="...">
-      <p><a href="#">Link para o conteudo</a></p>
+      <p><a href="#">Matrix?</a></p>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
