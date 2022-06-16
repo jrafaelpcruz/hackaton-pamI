@@ -4,8 +4,8 @@
 <div>
   <nav>
     <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="#">Contato</a></li>
+      <li><a href="?page=default">Home</a></li>
+      <li><a href="?page=contato">Contato</a></li>
     </ul>
   </nav>
 </div>
