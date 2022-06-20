@@ -28,6 +28,9 @@
     case 'contato-sucesso';
       include 'contato-sucesso.php';
       break;
+    case 'depoimento-visualizar';
+      include 'depoimento-visualizar.php';
+      break;
     default:
       include "inicio.php";
   }
