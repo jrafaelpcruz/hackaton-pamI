@@ -327,6 +327,13 @@ button {
   margin: 20px 0;
   border-bottom:2px solid var(--header-second-color)
 }
+/*conteudo*/
+.conteudo-pagina-autor {
+  font-size:30px;
+}
+.conteudo-pagina-autor a {
+  font-size:30px;
+}
 /*footer*/
 footer {
   font-family: 'Crimson Text', serif;

@@ -1,6 +1,6 @@
 <h1 class="contato-titulo">Por favor preencha o formulário abaixo para entrar em contato com nossa equipe</h1>
 <main>
-    <form action="?page=contato-salvar" method="POST">
+    <form action="?page=proc" method="POST">
     <input type="hidden" name="acao" value="contato-salvar">
       <div>
         <label>Titulo:</label>

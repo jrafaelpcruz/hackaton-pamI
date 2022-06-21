@@ -22,17 +22,23 @@
     case 'contato':
       include 'contato.php';
       break;
-    case 'contato-salvar':
-      include 'proc.php';
-      break;
     case 'contato-sucesso';
       include 'contato-sucesso.php';
       break;
     case 'depoimento-visualizar';
       include 'depoimento-visualizar.php';
       break;
-    case 'conteudo';
+    case 'conteudo':
       include 'conteudo.php';
+      break;
+    case 'conteudo-inserir':
+      include 'conteudo-inserir.php';
+      break;
+    case 'conteudo-inserir-sucesso':
+      include 'conteudo-inserir-sucesso.php';
+      break;
+    case 'proc':
+      include 'proc.php';
       break;
     default:
       include "inicio.php";

@@ -29,6 +29,7 @@
   </div>
   <div class="spotlight-anuncio">
     <p>Espaço para anúncio</p>
+    <a href="?page=conteudo-inserir">Gerenciamento Fake(tm)</a>
   </div>
 </div>
 <main>
@@ -36,10 +37,10 @@
     <div class="coluna-conteudo">
       <div class="conteudo">
         <div class="conteudo-imagem">
-          <a href="?page=conteudo"><img src="img/music.jpg" /></a>
+          <a href="?page=conteudo&codCtu=1"><img src="img/music.jpg" /></a>
         </div>
         <div class="conteudo-principal">
-          <a href="?page=conteudo">Lorem ipsum dolor sit.</a>
+          <a href="?page=conteudo&codCtu=1">Lorem ipsum dolor sit.</a>
           <div class="conteudo-atributos">
             <ul>
               <li><span class="tag-rosa">Conteudo-Tag</span></li>

@@ -1,19 +1,25 @@
+<?php 
+$sql = "SELECT * FROM Conteudo WHERE codCtu =".$_REQUEST["codCtu"];
+$res = $conn->query($sql) or die("erro");
+$row = $res->fetch_object()
+?>
 <main>
 <div class="container">
     <div class="coluna-conteudo">
       <div class="conteudo">
         <div>
-          <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+          <h1><?php print $row->titulo ?></h1>
           <div>
-            <img src="img/codigo_azul.jpg" />
-          </div> 
+            <img src="<?php print $row->imageml ?>" />
+          </div>
+          <div class="conteudo-pagina-autor">Por <a href=#><?php print $row->autor ?></a>.</div>
           <div class="conteudo-atributos">
             <ul>
               <li><span class="tag-verde">Conteudo-Tag</span></li>
-              <li>Data</li>
+              <li><?php print $row->data ?> Hora</li>
             </ul>
         </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur. Suscipit ullam libero autem consectetur doloribus debitis, quo delectus asperiores rem harum magnam quasi ut, illum temporibus laudantium laboriosam recusandae architecto illo nemo, pariatur vel! Magnam alias minima commodi autem velit. Incidunt blanditiis accusamus ipsam non quos quidem fugit et?</p>
+          <div><?php print $row->conteudo ?></div>
         </div>
       </div>
     </div>
