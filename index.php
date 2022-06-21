@@ -31,6 +31,9 @@
     case 'depoimento-visualizar';
       include 'depoimento-visualizar.php';
       break;
+    case 'conteudo';
+      include 'conteudo.php';
+      break;
     default:
       include "inicio.php";
   }

@@ -145,6 +145,12 @@ main {
   width:100%;
   border: 2px solid var(--header-second-color)
 }
+.conteudo h1 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: center;
+}
 .conteudo a {
   font-size: 40px;
   text-decoration: none;
@@ -154,8 +160,9 @@ main {
   font-weight: bold;
 }
 .conteudo p {
-  font-size: 30px;
+  font-size: 26px;
   font-family: 'Open Sans', sans-serif;
+  text-indent: 50px;
 }
 .conteudo-atributos {
   width:95%;
@@ -163,6 +170,7 @@ main {
   gap:10px;
   justify-content: space-between;
   align-items: center;
+  margin:10px 0;
 }
 .conteudo-atributos ul {
   list-style: none;
@@ -189,12 +197,10 @@ main {
   flex-flow: wrap column;
 }
 .conteudo-left h1 {
-  text-align:center;
-}
-.conteudo-left h1 {
   font-weight: normal;
   background-color: var(--header-main-color);
   margin-top:20px;
+  text-align:center;
 }
 .conteudo-left h1:first-child{
   margin-top:0;

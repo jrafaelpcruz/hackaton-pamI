@@ -36,10 +36,10 @@
     <div class="coluna-conteudo">
       <div class="conteudo">
         <div class="conteudo-imagem">
-          <a href="#"><img src="img/music.jpg" /></a>
+          <a href="?page=conteudo"><img src="img/music.jpg" /></a>
         </div>
         <div class="conteudo-principal">
-          <a href="#">Lorem ipsum dolor sit.</a>
+          <a href="?page=conteudo">Lorem ipsum dolor sit.</a>
           <div class="conteudo-atributos">
             <ul>
               <li><span class="tag-rosa">Conteudo-Tag</span></li>
