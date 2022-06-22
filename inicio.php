@@ -55,7 +55,7 @@
           print "</ul>";
           print "<div class='conteudo-atributos-comentarios'>0</div>";
         print "</div>";
-        print "<div><p>{$row->conteudo_p}</p></div>";
+        print "<div class='p_previa'><p>{$row->conteudo_p}</p></div>";
         print "</div></div>";
       }
     }
