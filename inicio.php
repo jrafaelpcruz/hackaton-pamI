@@ -1,4 +1,5 @@
 <!-- script js carregando bootstrap-->
+<h1 class="contato-titulo">Home</h1>
 <script src="js/bootstrap.min.js"></script>
 <div class="spotlight-container">
   <div class="spotlight">
@@ -49,7 +50,7 @@
           print "<a href='?page=conteudo&codCtu={$row->codCtu}'>$row->titulo</a>";
           print "<div class='conteudo-atributos'>";
           print "<ul>";
-            print "<li><span class='tag-rosa'>Conteudo-Tag</span></li>";
+            print "<li><span class='tag'>Conteudo-Tag</span></li>";
             print "<li>{$row->data}</li>";
           print "</ul>";
           print "<div class='conteudo-atributos-comentarios'>0</div>";
@@ -58,28 +59,8 @@
         print "</div></div>";
       }
     }
-    ?>
-      
+    ?>      
     </div>
-    <div class="conteudo-left">
-      <h1>Mais Comentados</h1>
-      <a href="#">Lorem ipsum dolor sit amet.</a>
-      <a href="#">Lorem, ipsum dolor.</a>
-      <h1>Mais Recentes</h1>
-      <a href="#">Lorem ipsum dolor sit amet.</a>
-      <a href="#">Lorem, ipsum dolor.</a>
-      <h1>Nossa Comunidade</h1>
-      <a href="https://racionalpower.wordpress.com/">RACIONAL POWER.</a>
-      <a href="#">Lorem, ipsum dolor.</a>      
-      <h1>Nos apoie</h1>
-      <div class="conteudo-left-apoie">
-        <div>
-          <a href="#"><img src="img/hands.jpg" /></a>
-        </div>
-        <div>
-          <a href="#">Sua ajuda mantem nosso site vivo e independente</a>
-        </div>
-      </div>
-    </div>
+    <?php include 'left-menu.php' ?>
   </div>
  </main>
