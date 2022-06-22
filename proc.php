@@ -17,8 +17,13 @@
 			$titulo = $_POST['titulo'];
 			$autor = $_POST['autor'];
 			$data = date("Y/m/d");
+			$hora = date("h:H");
 			$conteudo = $_POST['conteudo'];
-			$sql = "INSERT INTO Conteudo (codCtu, titulo, autor, data, conteudo, tags, imageml) VALUES (NULL, '{$titulo}','{$autor}','{$data}','{$conteudo}',NULL, NULL);";
+			$imageml = $_POST['imageml'];
+			$imagemlp = $_POST['imagemlp'];
+			$conteudop = $_POST['conteudop'];
+
+			$sql = "INSERT INTO Conteudo (codCtu, titulo, autor, data, conteudo, tags, imageml, hora, conteudo_p, imageml_p) VALUES (NULL, '{$titulo}','{$autor}','{$data}','{$conteudo}',NULL, '{$imageml}','{$hora}','{$conteudop}','{$imagemlp}' );";
 			$res = $conn->query($sql) or die("erro");
 			header("Location: index.php?page=conteudo-inserir-sucesso");
 			break;

@@ -9,8 +9,20 @@
     <input type="text" required name="autor" />
   </div>
   <div>
+    <label>Imagem</label>
+    <input type="text" required name="imageml" />
+  </div>
+  <div>
+    <label>Prévia da Imagem</label>
+    <input type="text" required name="imagemlp" />
+  </div>
+  <div>
     <label>Conteudo:</label>
-    <textarea name="conteudo" type="textbox" maxlength="30000" rows="50" required></textarea>
+    <textarea name="conteudo" type="textbox" maxlength="30000" rows="25" required></textarea>
+  </div>
+  <div>
+    <label>Pŕevia de conteudo:</label>
+    <textarea name="conteudop" type="textbox" maxlength="250" rows="10" required></textarea>
   </div>
   <div>
     <button type="submit">Enviar</button>

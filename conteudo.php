@@ -16,7 +16,8 @@ $row = $res->fetch_object()
           <div class="conteudo-atributos">
             <ul>
               <li><span class="tag-verde">Conteudo-Tag</span></li>
-              <li><?php print $row->data ?> Hora</li>
+              <li><?php print $row->data; ?> </li>
+              <li><?php print $row->hora;?> </li>
             </ul>
         </div>
           <div><?php print $row->conteudo ?></div>

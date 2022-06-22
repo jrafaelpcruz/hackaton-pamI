@@ -35,24 +35,30 @@
 <main>
 	 <div class="container">
     <div class="coluna-conteudo">
-      <div class="conteudo">
-        <div class="conteudo-imagem">
-          <a href="?page=conteudo&codCtu=1"><img src="img/music.jpg" /></a>
-        </div>
-        <div class="conteudo-principal">
-          <a href="?page=conteudo&codCtu=1">Lorem ipsum dolor sit.</a>
-          <div class="conteudo-atributos">
-            <ul>
-              <li><span class="tag-rosa">Conteudo-Tag</span></li>
-              <li>Data</li>
-            </ul>
-            <div class="conteudo-atributos-comentarios">
-            22
-            </div>
-          </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur. Suscipit ullam libero autem consectetur doloribus debitis, quo delectus asperiores rem harum magnam quasi ut, illum temporibus laudantium laboriosam recusandae architecto illo nemo, pariatur vel! Magnam alias minima commodi autem velit. Incidunt blanditiis accusamus ipsam non quos quidem fugit et?</p>
-        </div>
-      </div>
+    <?php 
+    $sql = "SELECT * FROM Conteudo ORDER BY codCtu DESC;";
+    $res = $conn->query($sql) or die("erro");
+    $qtd = $res->num_rows;
+    if($qtd > 0) {
+      while($row = $res->fetch_object()) {
+        print "<div class='conteudo'>";      
+          print "<div class='conteudo-imagem'/>";
+          print  "<a href='?page=conteudo&codCtu={$row->codCtu}'><img src='{$row->imageml_p}' /></a>";
+        print "</div>";
+        print "<div class='conteudo-principal'>";
+          print "<a href='?page=conteudo&codCtu={$row->codCtu}'>$row->titulo</a>";
+          print "<div class='conteudo-atributos'>";
+          print "<ul>";
+            print "<li><span class='tag-rosa'>Conteudo-Tag</span></li>";
+            print "<li>{$row->data}</li>";
+          print "</ul>";
+          print "<div class='conteudo-atributos-comentarios'>0</div>";
+        print "</div>";
+        print "<div><p>{$row->conteudo_p}</p></div>";
+        print "</div></div>";
+      }
+    }
+    ?>
       <div class="conteudo">
         <div class="conteudo-imagem">
           <a href="#"><img src="img/column_woman_glasses.jpg" /></a>
@@ -67,7 +73,7 @@
           <div class="conteudo-atributos-comentarios">
             8
           </div>
-        </div>
+  </div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur. Suscipit ullam libero autem consectetur doloribus debitis, quo delectus asperiores rem harum magnam quasi ut, illum temporibus laudantium laboriosam recusandae architecto illo nemo, pariatur vel! Magnam alias minima commodi autem velit. Incidunt blanditiis accusamus ipsam non quos quidem fugit et?</p>
         </div>
       </div>
@@ -80,7 +86,7 @@
       <a href="#">Lorem ipsum dolor sit amet.</a>
       <a href="#">Lorem, ipsum dolor.</a>
       <h1>Nossa Comunidade</h1>
-      <a href="#">Lorem ipsum dolor sit amet.</a>
+      <a href="https://racionalpower.wordpress.com/">RACIONAL POWER.</a>
       <a href="#">Lorem, ipsum dolor.</a>      
       <h1>Nos apoie</h1>
       <div class="conteudo-left-apoie">
