@@ -7,15 +7,15 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <a href="#"><img src="img/woman_sunglasses.jpg" class="d-block w-100" alt="..."></a>
-        <p><a href="#">Link para o conteudo</a></p>
+        <p><a href="#">Link A</a></p>
       </div>
       <div class="carousel-item">
         <a href="#"><img src="img/mulher_triste.jpg" class="d-block w-100" alt="..."></a>
-        <p><a href="#">A mulher triste voltou, Thais</a></p>
+        <p><a href="#">Link B</a></p>
       </div>
       <div class="carousel-item">
         <a href="#"><img src="img/codigo_azul.jpg" class="d-block w-100" alt="..."></a>
-        <p><a href="#">Matrix?</a></p>
+        <p><a href="#">Link C</a></p>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -59,24 +59,7 @@
       }
     }
     ?>
-      <div class="conteudo">
-        <div class="conteudo-imagem">
-          <a href="#"><img src="img/column_woman_glasses.jpg" /></a>
-        </div>
-        <div class="conteudo-principal">
-          <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
-          <div class="conteudo-atributos">
-            <ul>
-              <li><span class="tag-verde">Conteudo-Tag</span></li>
-              <li>Data</li>
-            </ul>
-          <div class="conteudo-atributos-comentarios">
-            8
-          </div>
-  </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur. Suscipit ullam libero autem consectetur doloribus debitis, quo delectus asperiores rem harum magnam quasi ut, illum temporibus laudantium laboriosam recusandae architecto illo nemo, pariatur vel! Magnam alias minima commodi autem velit. Incidunt blanditiis accusamus ipsam non quos quidem fugit et?</p>
-        </div>
-      </div>
+      
     </div>
     <div class="conteudo-left">
       <h1>Mais Comentados</h1>

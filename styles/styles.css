@@ -21,16 +21,12 @@ header {
 }
 header h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size:120px;
+  font-size: 100px;
   text-align: center;
-}
-header p {
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
 }
 header ul {
   display:flex;
+  flex-flow: wrap row;
   list-style:none;
   gap: 15px;
 }
@@ -50,7 +46,7 @@ li a:hover {
     background-color: #FFF;
   }
   header h1 {
-    font-size:90px;
+    font-size:10vw;
   }
   .titlenav {
     display: none;

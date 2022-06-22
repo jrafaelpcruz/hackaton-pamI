@@ -1,3 +1,4 @@
+<main>
 <form action="?page=proc" method="POST">
   <input type="hidden" name="acao" value="conteudo-inserir">
   <div>
@@ -28,3 +29,4 @@
     <button type="submit">Enviar</button>
   </div>
 </form>
+</main>
