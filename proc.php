@@ -27,7 +27,23 @@
 			$res = $conn->query($sql) or die("erro");
 			header("Location: index.php?page=conteudo-inserir-sucesso");
 			break;
+		
+		case 'depoimento-inserir':
+			$nomeEscrito = $_POST['nomeescrito'] = (isset($_POST['nomeescrito']) ) ? $_POST['nomeescrito'] : null;
+			$selectanon = $_POST['selectanon'];
+			if ($nomeEscrito == NULL) {
+				$nome = $selectanon;
+			} else {
+				$nome = $nomeEscrito;
+			}
+			$titulo = $_POST['titulo'];
+			$depoimento = $_POST['depoimento'];
+			$data = date("Y/m/d");
 
+			$sql = "INSERT INTO Depoimentos (cod_depo, nome, titulo_op, depoimento, data) VALUES (NULL, '{$nome}','{$titulo}','{$depoimento}','{$data}');";
+			$res = $conn->query($sql) or die("erro");
+			header("Location: index.php?page=conteudo-inserir-sucesso");
+			break;
  }
 
 ?>

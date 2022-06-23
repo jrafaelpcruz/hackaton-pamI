@@ -10,12 +10,12 @@
 }
 body {
   background-color: var(--header-main-color);
+  font-family: 'Crimson Text', serif;
 }
 /*Header.php*/
 header {
   background-color:var(--header-main-color);
   font-family: 'Crimson Text', serif;
-  border-bottom: 3px solid var(--header-second-color);
 }
 .header {
   display: flex;
@@ -170,6 +170,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
 }
 .conteudo-atributos ul {
   list-style: none;
@@ -205,13 +206,14 @@ main {
   border-radius: 5px;
 }
 .conteudo-left a {
-  font-size:28px;
+  font-size:22px;
   text-align:center;
   text-decoration: none;
   color:#000;
+  font-family: 'Open Sans', sans-serif;
 }
 .conteudo-left a:hover {
-  color: var(--header-second-color);
+  color: var(--header-nav-color);
 }
 .conteudo-left-apoie {
   width:100%;
@@ -330,6 +332,45 @@ button {
 }
 .conteudo-pagina-autor a {
   font-size:30px;
+}
+/*depoimentos*/
+.depoimento-main {
+  justify-content: center;
+  min-height:60vh;
+}
+.carousel-container {
+  width:100%;
+}
+.depoimento-coluna {
+  display:flex;
+  gap:20px;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  width:100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.depoimento-coluna div {
+  width: 75%;
+}
+.depoimento-coluna p {
+  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+}
+.depoimento-complemento {
+  font-size:22px;
+}
+.depoimento-escrever a {
+  margin: 20px 0;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:#000;
+  display: block;  
+}
+.depoimento-escrever a:hover {
+  color:var(--header-nav-color);
 }
 /*footer*/
 footer {

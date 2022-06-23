@@ -28,6 +28,9 @@
     case 'depoimento-visualizar';
       include 'depoimento-visualizar.php';
       break;
+    case 'depoimento-escrever';
+      include 'depoimento-escrever.php';
+      break;
     case 'conteudo':
       include 'conteudo.php';
       break;
