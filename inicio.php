@@ -30,7 +30,6 @@
   </div>
   <div class="spotlight-anuncio">
     <p>Espaço para anúncio</p>
-    <a href="?page=conteudo-inserir">Gerenciamento Fake(tm)</a>
   </div>
 </div>
 <main>
