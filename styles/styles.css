@@ -176,7 +176,7 @@ main {
   list-style: none;
   display:flex;
   gap:10px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .tag {
   background-color: var(--header-second-color);
@@ -184,7 +184,7 @@ main {
   border-radius:5px;
 }
 .conteudo-atributos-comentarios {
-  font-size:30px;
+  font-size:20px;
   background-color:var(--header-second-color);
   padding:0px 10px;
   border-radius: 5px;

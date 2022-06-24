@@ -10,7 +10,7 @@
 			
 			$sql = "INSERT INTO Contato (codcontato, titulo, categoria, nome, email, datainc, mensagem) VALUES (NULL, '{$titulo}','{$categoria}','{$nome}','{$email}','{$data}','{$conteudom}');";
 			$res = $conn->query($sql) or die("erro");
-			header("Location: index.php?page=contato-sucesso");
+			header("Location: index.php?page=conteudo-inserir-sucesso&retornar=contatois");
 			break;
 
 		case 'conteudo-inserir':
@@ -25,7 +25,7 @@
 
 			$sql = "INSERT INTO Conteudo (codCtu, titulo, autor, data, conteudo, tags, imageml, hora, conteudo_p, imageml_p) VALUES (NULL, '{$titulo}','{$autor}','{$data}','{$conteudo}',NULL, '{$imageml}','{$hora}','{$conteudop}','{$imagemlp}' );";
 			$res = $conn->query($sql) or die("erro");
-			header("Location: index.php?page=conteudo-inserir-sucesso");
+			header("Location: index.php?page=conteudo-inserir-sucesso&retornar=conteudois");
 			break;
 		
 		case 'depoimento-inserir':
@@ -42,8 +42,7 @@
 
 			$sql = "INSERT INTO Depoimentos (cod_depo, nome, titulo_op, depoimento, data) VALUES (NULL, '{$nome}','{$titulo}','{$depoimento}','{$data}');";
 			$res = $conn->query($sql) or die("erro");
-			header("Location: index.php?page=conteudo-inserir-sucesso");
+			header("Location: index.php?page=conteudo-inserir-sucesso&retornar=depoimentois");
 			break;
  }
-
 ?>
