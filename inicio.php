@@ -41,21 +41,28 @@
     $qtd = $res->num_rows;
     if($qtd > 0) {
       while($row = $res->fetch_object()) {
-        print "<div class='conteudo'>";      
-          print "<div class='conteudo-imagem'/>";
-          print  "<a href='?page=conteudo&codCtu={$row->codCtu}'><img src='{$row->imageml_p}' /></a>";
-        print "</div>";
-        print "<div class='conteudo-principal'>";
-          print "<a href='?page=conteudo&codCtu={$row->codCtu}'>$row->titulo</a>";
-          print "<div class='conteudo-atributos'>";
-          print "<ul>";
-            print "<li><span class='tag'>Conteudo-Tag</span></li>";
-            print "<li>{$row->data}</li>";
-          print "</ul>";
-          print "<div class='conteudo-atributos-comentarios'>0</div>";
-        print "</div>";
-        print "<div class='p_previa'><p>{$row->conteudo_p}</p></div>";
-        print "</div></div>";
+        print 
+        "<div class='conteudo'>      
+          <div class='conteudo-imagem'/>
+            <a href='?page=conteudo&codCtu={$row->codCtu}'>
+              <img src='{$row->imageml_p}' />
+            </a>
+          </div>
+          <div class='conteudo-principal'>
+            <a href='?page=conteudo&codCtu={$row->codCtu}'><h1>$row->titulo</h1></a>
+            <div class='conteudo-atributos'>
+              <ul>
+                <li><span class='tag'>Conteudo-Tag</span></li>
+                <li>{$row->data}</li>
+              </ul>
+          <div class='conteudo-atributos-comentarios'>0</div>
+        </div>
+        <div class='p_previa'>
+          <p>{$row->conteudo_p}</p>
+        </div>
+        <div class='conteudo-leia-mais'><a href='?page=conteudo&codCtu={$row->codCtu}'>Leia Mais...</a></div>
+        </div>
+        </div>";
       }
     }
     ?>      

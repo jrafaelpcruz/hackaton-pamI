@@ -17,6 +17,7 @@
       </div>
       <div class="conteudo-left-div">
         <h1>Nos apoie</h1>
+      </div>
         <div class="conteudo-left-apoie">
           <div>
             <a href="#"><img src="img/hands.jpg" /></a>
