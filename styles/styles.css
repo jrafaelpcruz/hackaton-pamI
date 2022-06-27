@@ -400,6 +400,22 @@ button {
 .depoimento-escrever a:hover {
   color:var(--header-nav-color);
 }
+/*fake*/
+.fake-bkg {
+  background-color: #FFF;
+}
+.fake-form {
+  width:100%;
+}
+.fake-listas {
+  font-family: 'Open Sans', sans-serif;
+}
+.fake-listas ul{
+  list-style: none;
+}
+.fake-listas a {
+  font-size: 22px;
+}
 /*footer*/
 footer {
   font-family: 'Crimson Text', serif;

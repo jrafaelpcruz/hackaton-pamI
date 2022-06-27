@@ -1,6 +1,4 @@
-<h1 class="contato-titulo">GSM FAKE</h1>
-<main>
-<form action="?page=proc" method="POST">
+<form action="?page=proc" method="POST" class="fake-form">
   <input type="hidden" name="acao" value="conteudo-inserir">
   <div>
     <label>Titulo:</label>
@@ -30,4 +28,3 @@
     <button type="submit">Enviar</button>
   </div>
 </form>
-</main>

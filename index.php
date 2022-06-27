@@ -31,21 +31,20 @@
     case 'conteudo':
       include 'conteudo.php';
       break;
-    case 'conteudo-inserir':
-      include 'conteudo-inserir.php';
-      break;
     case 'conteudo-inserir-sucesso':
       include 'conteudo-inserir-sucesso.php';
       break;
     case 'proc':
       include 'proc.php';
       break;
+    case 'fake':
+      header("Location:fake.php");
+      break;
     default:
-      include "inicio.php";
+     include "inicio.php";
   }
   ?>
  <div>
- <footer><?php include 'footer.php'?></footer>
-
+b<footer><?php include 'footer.php'?></footer>
 </body>
 </html>
