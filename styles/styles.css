@@ -74,7 +74,7 @@ li a:hover {
 main {
   width:75%;
   padding:20px;
-  box-sizing:content-box;
+  box-sizing:border-box;
   display:flex;
   flex-flow: wrap column;
   align-items: center;
@@ -88,6 +88,7 @@ main {
 .spotlight-container {
   width:100%;
   display:flex;
+  box-sizing:content-box;
   align-items: top;
 }
 .spotlight {

@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <title>FAKE</title>
 </head>
-<body class="fake-bkg">
+<body class="fake-bkg1">
 <header><h1>Placeholder</h1></header>
   <h1 class="contato-titulo">Gerenciamento Fake</h1>
   <main>
