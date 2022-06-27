@@ -1,24 +1,25 @@
 <!-- script js carregando bootstrap-->
 <h1 class="contato-titulo">Home</h1>
 <script src="js/bootstrap.min.js"></script>
+
 <div class="spotlight-container">
   <div class="spotlight">
       <!--inicio do código do carousel -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <a href="#"><img src="img/woman_sunglasses.jpg" class="d-block w-100" alt="..."></a>
-        <p><a href="#">Link A</a></p>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#"><img src="img/woman_sunglasses.jpg" class="d-block w-100" alt="..."></a>
+          <p><a href="#">Link A</a></p>
+        </div>
+        <div class="carousel-item">
+          <a href="#"><img src="img/mulher_triste.jpg" class="d-block w-100" alt="..."></a>
+          <p><a href="#">Link B</a></p>
+        </div>
+        <div class="carousel-item">
+          <a href="#"><img src="img/codigo_azul.jpg" class="d-block w-100" alt="..."></a>
+          <p><a href="#">Link C</a></p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <a href="#"><img src="img/mulher_triste.jpg" class="d-block w-100" alt="..."></a>
-        <p><a href="#">Link B</a></p>
-      </div>
-      <div class="carousel-item">
-        <a href="#"><img src="img/codigo_azul.jpg" class="d-block w-100" alt="..."></a>
-        <p><a href="#">Link C</a></p>
-      </div>
-    </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </button>
@@ -29,7 +30,7 @@
       <!-- Fim do codigo do carousel-->
   </div>
   <div class="spotlight-anuncio">
-    <p>Espaço para anúncio</p>
+    <img src="img/fakeadd.png" />
   </div>
 </div>
 <main>

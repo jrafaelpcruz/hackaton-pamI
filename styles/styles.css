@@ -74,7 +74,7 @@ li a:hover {
 main {
   width:75%;
   padding:20px;
-  box-sizing:border-box;
+  box-sizing:content-box;
   display:flex;
   flex-flow: wrap column;
   align-items: center;
@@ -87,14 +87,12 @@ main {
 }
 .spotlight-container {
   width:100%;
-  box-sizing:content-box;
   display:flex;
-  margin-bottom:20px;
+  align-items: top;
 }
 .spotlight {
   flex:4 1 0;
-  align-items:center;
-  background-color:var(--header-second-color); 
+  align-items:center; 
   font-family: 'Crimson Text', serif;
 }
 .spotlight img {
@@ -103,6 +101,7 @@ main {
 .spotlight p {
 	font-size: 40px;
 	text-align:center;
+  background-color:var(--header-second-color);
 }
 .spotlight a {
 	text-decoration:none;
@@ -117,8 +116,13 @@ main {
   flex-flow:wrap column;  
   justify-content: center;
   align-items: center;
-  border:2px dashed red;
+  box-sizing: content-box;
+  margin-left: 5px;
+
 }
+.spotlight-anuncio img {
+  width:100%;
+ }
 .container {
   width:100%;
   display:flex;
@@ -204,6 +208,9 @@ main {
 .left-anuncio {
   display:none;
 }
+.left-anuncio img {
+  width:100%;
+}
 .conteudo-left-div {
   display:flex;
   flex-flow: wrap column;
@@ -245,7 +252,6 @@ main {
     display:none;
   }
   .left-anuncio {
-    border:2px dashed red;
     display:flex;
     flex-flow:wrap column;  
     justify-content: center;
@@ -409,6 +415,9 @@ button {
 }
 .fake-listas {
   font-family: 'Open Sans', sans-serif;
+}
+.fake-listas h1 {
+  border-bottom: 1px solid #000;
 }
 .fake-listas ul{
   list-style: none;

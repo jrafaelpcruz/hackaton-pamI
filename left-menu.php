@@ -1,5 +1,5 @@
 <div class="conteudo-left">
-      <div class="left-anuncio"><p>Espaço para anúncio</p></div>
+      <div class="left-anuncio"><img src="img/fakeadd.png"/></div>
       <div class="conteudo-left-div">
         <h1>Mais Comentados</h1>
         <a href="?page=fake">Gerenciamento Fake(tm)</a>

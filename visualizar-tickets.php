@@ -36,7 +36,7 @@
   </ul>
 
   <br>
-  <h1>Denuncia:</h1>
+  <h1>Denúncia:</h1>
   <ul>
 <?php 
     $sql = "SELECT * FROM Contato WHERE categoria = 'denuncia' ORDER BY codcontato DESC;";
