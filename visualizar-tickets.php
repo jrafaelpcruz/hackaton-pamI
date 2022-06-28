@@ -8,7 +8,7 @@
     if($qtd > 0) {
       while($row = $res->fetch_object()) {
         print "
-            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>{$row->titulo}</a></li>
+            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>".utf8_encode($row->titulo)."</a></li>
         ";
       }
     } else {
@@ -26,7 +26,7 @@
     if($qtd > 0) {
       while($row = $res->fetch_object()) {
         print "
-            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>{$row->titulo}</a></li>
+            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>".utf8_encode($row->titulo)."</a></li>
         ";
       }
     } else {
@@ -45,7 +45,7 @@
     if($qtd > 0) {
       while($row = $res->fetch_object()) {
         print "
-            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>{$row->titulo}</a></li>
+            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>".utf8_encode($row->titulo)."</a></li>
         ";
       }
     } else {
@@ -64,7 +64,7 @@
     if($qtd > 0) {
       while($row = $res->fetch_object()) {
         print "
-            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>{$row->titulo}</a></li>
+            <li><a href='simple-view.php?codcontato={$row->codcontato}' target='_blank'>".utf8_encode($row->titulo)."</a></li>
         ";
       }
     } else {

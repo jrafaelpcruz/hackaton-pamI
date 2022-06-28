@@ -2,7 +2,7 @@
       <div class="left-anuncio"><img src="img/fakeadd.png"/></div>
       <div class="conteudo-left-div">
         <h1>Mais Comentados</h1>
-        <a href="?page=fake">Gerenciamento Fake(tm)</a>
+        <a href="fake.php">Gerenciamento Fake(tm)</a>
         <a href="#">Lorem, ipsum dolor.</a>
       </div>
       <div class="conteudo-left-div">

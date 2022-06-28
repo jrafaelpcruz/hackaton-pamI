@@ -50,7 +50,7 @@
             </a>
           </div>
           <div class='conteudo-principal'>
-            <a href='?page=conteudo&codCtu={$row->codCtu}'><h1>$row->titulo</h1></a>
+            <a href='?page=conteudo&codCtu={$row->codCtu}'><h1>".utf8_encode($row->titulo)."</h1></a>
             <div class='conteudo-atributos'>
               <ul>
                 <li><span class='tag'>Conteudo-Tag</span></li>
@@ -59,7 +59,7 @@
           <div class='conteudo-atributos-comentarios'>0</div>
         </div>
         <div class='p_previa'>
-          <p>{$row->conteudo_p}</p>
+          <p>".utf8_encode($row->conteudo_p)."</p>
         </div>
         <div class='conteudo-leia-mais'><a href='?page=conteudo&codCtu={$row->codCtu}'>Leia Mais...</a></div>
         </div>

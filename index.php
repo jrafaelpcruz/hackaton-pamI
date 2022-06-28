@@ -37,9 +37,6 @@
     case 'proc':
       include 'proc.php';
       break;
-    case 'fake':
-      header("Location:fake.php");
-      break;
     default:
      include "inicio.php";
   }

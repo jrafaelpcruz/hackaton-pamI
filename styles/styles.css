@@ -89,7 +89,6 @@ main {
   width:100%;
   display:flex;
   box-sizing:content-box;
-  align-items: top;
 }
 .spotlight {
   flex:4 1 0;
@@ -114,12 +113,8 @@ main {
 .spotlight-anuncio {
   flex:1 1 0;
   display:flex;
-  flex-flow:wrap column;  
-  justify-content: center;
-  align-items: center;
   box-sizing: content-box;
   margin-left: 5px;
-
 }
 .spotlight-anuncio img {
   width:100%;

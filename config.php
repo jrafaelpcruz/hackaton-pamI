@@ -5,9 +5,9 @@
   error_reporting(E_ALL);
 
  //let's connect
-  define('HOST', 'localhost');
+  define('HOST', 'mariadb');
   define('USER', 'root');
-  define('PASS', 'root');
+  define('PASS', 'rootpwd');
   define('BASE', 'hackaton');
   $conn = new MysQLi(HOST,USER,PASS,BASE);
  ?>
