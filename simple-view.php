@@ -3,6 +3,7 @@
     font-size:22px;
   }
 </style>
+<meta charset="UTF-8">
 <?php
   include 'config.php';
   $sql = "SELECT * FROM Contato WHERE codcontato =".$_REQUEST['codcontato'];
